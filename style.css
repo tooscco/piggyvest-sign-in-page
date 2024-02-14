@@ -1,0 +1,137 @@
+body{
+    background-color: #062863;
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    position: relative; left: 400px; top: 120px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+h2{
+    text-align: center;
+    position: relative; top: 40px;
+    font-family: sans-serif;
+    color: #3561b0;
+}
+
+.box > p{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 14px;
+    position: relative; top: 25px;
+    color: #a3a9b3;
+}
+
+label{
+    position: relative; left: 35px; top: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 20px;
+    color: #535d6f;
+}
+
+input{
+    margin-bottom: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: none;
+    background-color: #edf2f7;
+    outline: none;
+    width: 360px;
+    margin-left: 35px;
+    padding: 5px;
+    height: 45px;
+    position: relative; top: 15px;
+}
+
+button{
+    position: relative; left: 35px;
+    padding: 12px 165px;
+    background-color: #0d60d8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button:hover{
+    background-color:   #062863;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+   margin-top: 15%;
+   text-align: center;
+   margin-bottom: 5%;
+   color: #ffffff;
+}
+
+.list2{
+    text-decoration: none;
+    color: #edf2f7;
+    position: relative;
+}
+
+
+.list2:hover{
+    color: #a3a9b3;
+}    
+
+.list:hover{
+    color: #a3a9b3;
+}    
+
+.list {
+    position: absolute;
+    left: 46%;
+    top: 120%;
+    color: #edf2f7;
+    text-decoration: none;
+}
+img{
+    position: relative; left: 40%; top: 100px;
+}
+
+
+.main-box{
+    width: 450px;
+    height: 950px;
+    background-color: #ffffff;
+    position: relative; left: 400px; top: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.heading h2{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #083e9e;
+}
+
+.heading p{
+    text-align: center;
+    font-size: 16px;
+    position: relative; top: 25px;
+    color: #a3a9b3;
+    font-weight: 2px;
+}
+
+.name label .email label, .phone label, .password label, .optional label, .fo label{
+    color:  #4a5770;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
